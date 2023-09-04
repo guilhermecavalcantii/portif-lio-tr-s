@@ -1,0 +1,24 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+@import url(styles/topicos.css);
+
+:root {
+    --cor-de-fundo: #F9F5F6;
+    --cor-primaria: #F2BED1;
+    --cor-secundaria: #F8E8EE;
+    --cor-terciaria:#FDCEDF;
+    --cor-texto:#213555;
+    --cor-alternativa:#FAF8F1;
+    --rosa-gradiente: linear-gradient(180deg, #F2BED1 33.33%, #F2BED1 60.39%, #F2BED1 70.81%, rgba(242, 190, 192, 0.00) 100%);
+    --fonte-principal:"Montserrat";
+    --cor-preto: #000;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
